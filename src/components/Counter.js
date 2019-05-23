@@ -1,5 +1,13 @@
 import React, { useState } from "react";
 
+/**
+ * @description
+ * Example of a simple React "smart component" component.
+ * Initial state is a number received thorough the props in the "startWith" property.
+ * Increment button increments the current state value by 1.
+ * Decrement button decrements the current state value by 1
+ * The current state value is presented between the buttons
+ */
 export function Counter(props) {
   const [counter, setCounter] = useState(props.startWith);
 

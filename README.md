@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Millionaire Quiz App
 
-## Available Scripts
+We will try to implement the Millionaire quiz game using ReactJS framework, for learning purposes during "Lemon Mint boot camp"
+The repo contains only the basic application structure and some initial functionality.
 
-In the project directory, you can run:
+Every course participant should fork this repo and try to implement the complete game. The game should look like and have the structure similar to popular "Millionaire" quiz, but deviations from the rules or new ideas are OK. Use your imagination :)
 
-### `npm start`
+## The goals
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Architecture
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Quality application needs a clean architecture. We will take special care on how the app is structured.
 
-### `npm test`
+### Looks
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The user interface is an important part of every app, so you should pay a special attention to have your app looks. Try to make it pretty:)
 
-### `npm run build`
+### Code quality
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We will take care about how our code looks, strive to write code that is understandable, that can easily be read by someone else (or ourselves), and also important write code that is correct :)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## How to start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- fork this repo
+- clone your fork
+- `yarn install`
+- `yarn start`
 
-### `npm run eject`
+do your thing!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+COMMIT EARLY AND COMMIT OFTEN!
