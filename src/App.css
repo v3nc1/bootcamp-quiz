@@ -31,3 +31,23 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: lightpink;
+  margin: 10px;
+  font-size: 30px;
+}
+button:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 30px;
+  font-weight: 400;
+  display: grid;
+  place-content: center;
+}

@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { quiz } from "./api/data";
+import "./App.css";
 
-function App() {
+const gameState = {
+  currentQuestionIndex: 0,
+  playerAnswer: undefined
+};
+export default function App() {
+  //jsx
+
+  const [state, setState] = useState(gameState);
+  const question = quiz.questions[state.currentQuestionIndex];
+
+  const playerAnswerSelected = playerAnswer => {
+    const newState = {
+      currentQuestionIndex: state.currentQuestionIndex,
+      playerAnswer: playerAnswer
+    };
+    setState(newState);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>{question.text}</div>
+      <div>
+        <button onClick={() => playerAnswerSelected("A")}>
+          {question.answers.A}
+        </button>
+        <button onClick={() => playerAnswerSelected("B")}>
+          {question.answers.B}
+        </button>
+        <button onClick={() => playerAnswerSelected("C")}>
+          {question.answers.C}
+        </button>
+        <button onClick={() => playerAnswerSelected("D")}>
+          {question.answers.D}
+        </button>
+        <div>{question.answers[state.playerAnswer]}</div>
+      </div>
     </div>
   );
 }
-
-export default App;
