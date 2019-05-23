@@ -1,6 +1,4 @@
 {
-    "files.exclude": {
-        "**/node_modules": true,
-        "**/public": true
-    }
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
